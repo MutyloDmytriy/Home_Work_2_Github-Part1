@@ -1,29 +1,21 @@
-
 Все шаги сценария выполняйте в терминале GitBush, Terminal, в папке под гитом.
 Файл со сценарием и ссылку на свой гит хаб отправляйте менторам на проверку.
 Как отправить ДЗ на проверку.
  1. Создайте текстоовый файл как в первом ДЗ по Terminal.
  2. Сценарий перенесите в этот файл.
- 3. На против каждого действия - напишите команду в GitBash
-
-JSON
+ 3. На против каждого действия - напишите команду в GitBash JSON
  4. Создать внешний репозиторий c названием JSON.-
    Заходим на githab , выбираем repositories > new. B Repository name пишем jason 
  5. Клонировать репозиторий JSON на локальный компьютер. - 
   git clone https://github.com/MutyloDmytriy/Json.git
-
  6. Внутри локального JSON создать файл “new.json”. 
   - cd json(зашли в папку)  cat > new.json(можно сразу писать текст в папке) ctrl+c- сохранить то что написали и выйти 
-
  7. Добавить файл под гит. 
  - git add new.json Проверим статус - git status
-
  8. Закоммитить файл.
 git commit -m new.json
-
  9. Отправить файл на внешний GitHub репозиторий.
   - git push
-
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.-
  - cat > new.json
  {
@@ -33,8 +25,6 @@ git commit -m new.json
    "pets":0,
    "expected_salary_usd":1000
     }
-
-
  11. Отправить изменения на внешний репозиторий.
  -git add new.json;  git status; git commit -m new.json; git push. 
   git commit -am "first changes to new.json"
@@ -42,9 +32,7 @@ git commit -m new.json
  12. Создать файл preferences.json
  touch preferences.json
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
-
 cat >> preferences.json
-
 {
    "film":"Mahabharata",
    "TVShow":"Hare Krishna",
@@ -52,14 +40,9 @@ cat >> preferences.json
    "season":"sammer",
    "countryIwouldliketovisit":"India"
 }
-
- 
-
  14. Создать файл skills.json добавить информацию о скиллах которые будут изучены
      на курсе в формате JSON 
-
- cat > skills.json
-
+cat > skills.json
      {
    "hard_skills":[
       "QA_basics",
@@ -109,7 +92,6 @@ cat >> preferences.json
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
  20. Синхронизировать внешний и локальный репозиторий JSON
    git pull
-
 XML
  21. Создать внешний репозиторий c названием XML. Заходим в GITHUB.Находимся в своем профиле Выбираем репозитории и выбираем New.В имени репозитория пишем название.Если нужно описание.
  22. Клонировать репозиторий XML на локальный компьютер.
@@ -136,9 +118,7 @@ cat >> new.xml
  29. Создать файл preferences.xml
  cat > preferences.xml
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
-
 cat > preferences.xml
-
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
   <film>Prabhupada</film>
@@ -149,7 +129,6 @@ cat > preferences.xml
 </root>
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
   cat > skills.xml
-
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <hard_skills>QA_basics</hard_skills>
@@ -172,7 +151,6 @@ cat > preferences.xml
  34. На веб интерфейсе создать файл bug_report.xml.
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
-
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <bug_id number="true">1</bug_id>
@@ -227,3 +205,4 @@ git add -A && git commit -m preferences.txt/skills.txt
 Зайдем в файл bug_report.xml.Справа есть карандашик "Редактировать этот файл".Нажимаем и переносим
 изменения.Нажимаем Зафиксировать изменения
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.Введем составные части Bug Report в формате xml.Нажмем Commit changes
+ 18. Синхронизировать внешний и локальный репозиторий TXT git push
